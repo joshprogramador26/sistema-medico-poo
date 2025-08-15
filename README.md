@@ -53,10 +53,11 @@ Errores comunes y sus soluciones:
 ---
 
 ## Contacto
-En caso de dudas o problemas técnicos, usted puede comunicarse a:  
-**(2330242@upv.edu.mx)**
-**(2330309@upv.edu.mx)**
-**(2330014@upv.edu.mx)**
-**(2330222@upv.edu.mx)**
+En caso de dudas o problemas técnicos, usted puede comunicarse a:
+- **2330242@upv.edu.mx**
+- **2330309@upv.edu.mx**
+- **2330014@upv.edu.mx**
+- **2330222@upv.edu.mx**
+
 
 ---
