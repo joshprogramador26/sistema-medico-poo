@@ -59,5 +59,11 @@ En caso de dudas o problemas técnicos, usted puede comunicarse a:
 - **2330014@upv.edu.mx**
 - **2330222@upv.edu.mx**
 
+## Autores:
+- **Joshua André Alvarado Tovar**
+- **Diego Emmanuel Salas Morales**
+- **Angel Guadalupe Rivera Portillo**
+- **Manuel Alejandro Rodriguez Resendiz**
+
 
 ---
