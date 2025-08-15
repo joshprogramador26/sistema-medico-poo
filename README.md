@@ -1,69 +1,69 @@
 # Sistema de Gestión de Consultorio Médico
 
 ## Descripción
-Este sistema permite administrar de forma sencilla **doctores** y **pacientes** en un consultorio, gestionando el registro y priorización de la atención médica.  
-Fue desarrollado en **Java** con **Swing** como interfaz gráfica, y simula el flujo real de trabajo en un consultorio: registro de personal médico, registro de pacientes y gestión de la lista de atención según urgencia.
+El **Sistema de Gestión de Consultorio Médico** es una aplicación de escritorio desarrollada en **Java SE** bajo el paradigma de **Programación Orientada a Objetos (POO)**, utilizando **Swing** para la interfaz gráfica de usuario.
+Su objetivo es optimizar la administración de doctores y pacientes, permitiendo su registro, la asignación de niveles de prioridad y la gestión de turnos de atención.
+El sistema simula el flujo real de trabajo en un consultorio, desde el alta de personal médico hasta la atención de pacientes en orden de urgencia.
 
 ---
 
 ## Requisitos del sistema
-- **Java SE** 8 o superior
-- IDE compatible (**IntelliJ IDEA**, **NetBeans**, **Eclipse**)
+- **Java SE** 8 o superior.
+- Entorno de desarrollo compatible (**IntelliJ IDEA**, **NetBeans** o **Eclipse**).
+- Sistema operativo con soporte para Java (Windows, Linux o macOS).
 
 ---
 
 ## Estructura del proyecto
-- **Main.java**: Clase principal que inicia la aplicación.
-- **AppUI.java**: Ventana principal con la interfaz gráfica y control de eventos.
-- **Doctor.java**: Modelo que representa a un médico registrado.
-- **Patient.java**: Modelo que representa a un paciente, incluyendo su prioridad de atención.
+- **Main.java**: Punto de entrada de la aplicación; inicializa la interfaz gráfica y carga los componentes.
+- **AppUI.java**: Clase encargada de la interfaz principal y la gestión de eventos de usuario.
+- **Doctor.java**: Clase modelo que representa a un médico, con sus atributos y métodos asociados.
+- **Patient.java**: Clase modelo que representa a un paciente, incluyendo la lógica para manejar niveles de prioridad (por ejemplo: ALTA, MEDIA, BAJA).
 
 ---
 
 ## Funcionalidades
-- Menú principal para acceder a las funciones del sistema.
-- Registro de doctores con sus datos básicos.
-- Registro de pacientes con información personal y nivel de prioridad.
-- Visualización de la lista de pacientes ordenada por prioridad.
-- Gestión de turnos para atención médica.
-- Interfaz gráfica sencilla e intuitiva.
+- Menú principal para navegación entre las funciones del sistema.
+- Registro de doctores con información esencial.
+- Registro de pacientes con datos personales y prioridad de atención.
+- Ordenamiento automático de la lista de pacientes según la prioridad asignada y el orden de registro.
+- Gestión de turnos: selección del paciente en turno, marcado como atendido y paso al siguiente.
+- Interfaz gráfica clara e intuitiva para facilitar el uso.
 
 ---
 
 ## Instrucciones de uso
-1. **Ejecuta** la clase principal del proyecto (`Main`).
+1. Ejecutar la clase principal del proyecto (**Main**).
 2. Desde el menú principal:
-   - **Registrar doctor** ingresando nombre, especialidad y demás datos solicitados.
-   - **Registrar paciente** con nombre, datos personales y prioridad.
-3. El sistema verificará:
-   - Que los datos ingresados sean válidos (sin campos vacíos).
-   - Que el paciente tenga asignada una prioridad correcta.
-4. Una vez registrados, los pacientes aparecerán en la lista ordenada por prioridad.
-5. Los turnos se gestionan desde la interfaz, permitiendo seleccionar y marcar como atendido al paciente actual.
+   - Registrar doctores ingresando nombre, especialidad y demás datos requeridos.
+   - Registrar pacientes con datos personales y asignación de prioridad.
+3. El sistema validará:
+   - Que no existan campos vacíos.
+   - Que la prioridad asignada sea válida (ALTA, MEDIA o BAJA).
+4. Los pacientes se mostrarán en una lista ordenada por prioridad y orden de registro.
+5. Desde la interfaz, se podrá seleccionar un paciente para atención y marcarlo como atendido.
 
 ---
 
-## Ayuda sobre el proyecto
-Errores comunes y sus soluciones:
-- **Datos vacíos**: Todos los campos deben ser llenados para registrar doctores o pacientes.
-- **Prioridad inválida**: Debe seleccionarse una prioridad existente (por ejemplo: Alta, Media, Baja).
-- **Lista vacía**: Si no hay pacientes registrados, no se podrá gestionar turnos.
-- **Registro duplicado**: Verificar que no se ingresen doctores o pacientes con datos idénticos innecesariamente.
+## Ayuda y solución de problemas
+- **Datos vacíos**: Todos los campos deben completarse para registrar doctores o pacientes.
+- **Prioridad inválida**: Solo se aceptan valores predefinidos (ALTA, MEDIA o BAJA).
+- **Lista de pacientes vacía**: Registre al menos un paciente antes de gestionar turnos.
+- **Registros duplicados**: Evite ingresar la misma información para doctores o pacientes salvo que sea intencional.
 
 ---
 
 ## Contacto
-En caso de dudas o problemas técnicos, usted puede comunicarse a:
-- **2330242@upv.edu.mx**
-- **2330309@upv.edu.mx**
-- **2330014@upv.edu.mx**
-- **2330222@upv.edu.mx**
-
-## Autores:
-- **Joshua André Alvarado Tovar**
-- **Diego Emmanuel Salas Morales**
-- **Angel Guadalupe Rivera Portillo**
-- **Manuel Alejandro Rodriguez Resendiz**
-
+En caso de dudas o problemas técnicos, puede comunicarse a:
+- 2330242@upv.edu.mx
+- 2330309@upv.edu.mx
+- 2330014@upv.edu.mx
+- 2330222@upv.edu.mx
 
 ---
+
+## Autores
+- Joshua André Alvarado Tovar
+- Diego Emmanuel Salas Morales
+- Ángel Guadalupe Rivera Portillo
+- Manuel Alejandro Rodríguez Reséndiz
