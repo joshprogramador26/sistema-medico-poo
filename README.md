@@ -1,18 +1,18 @@
 # Sistema de Gestión de Consultorio Médico
 
-## 📖 Descripción
+## Descripción
 Este sistema permite administrar de forma sencilla **doctores** y **pacientes** en un consultorio, gestionando el registro y priorización de la atención médica.  
 Fue desarrollado en **Java** con **Swing** como interfaz gráfica, y simula el flujo real de trabajo en un consultorio: registro de personal médico, registro de pacientes y gestión de la lista de atención según urgencia.
 
 ---
 
-## 🛠 Requisitos del sistema
+## Requisitos del sistema
 - **Java SE** 8 o superior
 - IDE compatible (**IntelliJ IDEA**, **NetBeans**, **Eclipse**)
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 - **Main.java**: Clase principal que inicia la aplicación.
 - **AppUI.java**: Ventana principal con la interfaz gráfica y control de eventos.
 - **Doctor.java**: Modelo que representa a un médico registrado.
@@ -20,7 +20,7 @@ Fue desarrollado en **Java** con **Swing** como interfaz gráfica, y simula el f
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 - Menú principal para acceder a las funciones del sistema.
 - Registro de doctores con sus datos básicos.
 - Registro de pacientes con información personal y nivel de prioridad.
@@ -30,7 +30,7 @@ Fue desarrollado en **Java** con **Swing** como interfaz gráfica, y simula el f
 
 ---
 
-## ▶️ Instrucciones de uso
+## Instrucciones de uso
 1. **Ejecuta** la clase principal del proyecto (`Main`).
 2. Desde el menú principal:
    - **Registrar doctor** ingresando nombre, especialidad y demás datos solicitados.
@@ -43,7 +43,7 @@ Fue desarrollado en **Java** con **Swing** como interfaz gráfica, y simula el f
 
 ---
 
-## 🆘 Ayuda sobre el proyecto
+## Ayuda sobre el proyecto
 Errores comunes y sus soluciones:
 - **Datos vacíos**: Todos los campos deben ser llenados para registrar doctores o pacientes.
 - **Prioridad inválida**: Debe seleccionarse una prioridad existente (por ejemplo: Alta, Media, Baja).
@@ -52,8 +52,11 @@ Errores comunes y sus soluciones:
 
 ---
 
-## 📧 Contacto
-En caso de dudas o problemas técnicos, comunícate a:  
-**[tuemail@dominio.com](mailto:tuemail@dominio.com)**
+## Contacto
+En caso de dudas o problemas técnicos, usted puede comunicarse a:  
+**(2330242@upv.edu.mx)**
+**(2330309@upv.edu.mx)**
+**(2330014@upv.edu.mx)**
+**(2330222@upv.edu.mx)**
 
 ---
